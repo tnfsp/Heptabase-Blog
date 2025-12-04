@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch JSON data
         run: |
-          curl https://api.dabing.one > src/resources/data.json
+          curl https://api.dabing.one?whiteboard_id=713dfe51-f65b-4105-98fe-8d2278170bd9 > src/resources/data.json
 
       - name: Save JSON data to repository
         run: |
